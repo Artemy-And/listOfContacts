@@ -117,7 +117,7 @@ export const TableBigListOfContacts = () => {
     ///////////*********LOCAL STARAGE***********/////////////
     useEffect(()=>{
         saveState1()
-    },[array])
+    },[filteredNames])
     const saveState1 = () => {
         saveState('filteresStatusContacts', array)
     }

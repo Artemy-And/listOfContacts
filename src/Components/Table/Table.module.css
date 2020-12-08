@@ -1,0 +1,132 @@
+.headerName {
+    color: #31A485;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+}
+
+.myTableHeader {
+    display: flex;
+    border-bottom: 1px solid gainsboro;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 50px;
+    padding: 5px;
+}
+
+.myTable {
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
+    color: #8B8B8B;
+    height: 60px;
+}
+
+
+.myTable:hover {
+    box-shadow: 0 0 16px 3px #cccccc;
+    opacity: 80%;
+    background-color: #334452;
+}
+
+.newClassName {
+    background-color: white;
+}
+
+.myTable div {
+    padding: 5px;
+    border-bottom: 1px solid gainsboro;
+    background-color: white;
+}
+
+.types {
+    color: orange;
+}
+
+.error {
+    color: red;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+}
+
+.box1 {
+    display: flex;
+    align-items: start;
+    flex: 1;
+}
+
+.box2 {
+    flex: 1;
+}
+
+.box3 {
+    flex: 1;
+}
+
+.box4 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box5 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box6 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.buttonOff {
+    background-color: #8B8B8B;
+    width: 65px;
+    height: 20px;
+    color: floralwhite;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    border-radius: 100px;
+}
+
+.buttonOn {
+    background-color: #31A485;
+    width: 65px;
+    height: 20px;
+    color: floralwhite;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    border-radius: 100px;
+}
+
+.errorEmail {
+    color: red;
+    padding-left: 15px;
+}
+
+
+.filterContacts {
+    padding: 10px;
+    display: flex;
+
+    flex-direction: row;
+}
+.info{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.info Button{
+    margin: 10px
+}

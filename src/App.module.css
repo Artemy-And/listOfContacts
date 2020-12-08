@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+
+
+  padding: 10px;
+  box-sizing: border-box;
+
+}
+.newContainer{
+  background-color: #FAFAFA;
+  padding: 5px 10px 10px 10px;
+}
+
